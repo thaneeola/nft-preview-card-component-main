@@ -40,6 +40,7 @@ hr{
 }
 .landing-img{
    width: 100%;
+   background-image: url("./images/image-equilibrium.jpg");
    border-radius: 10px;
    margin-bottom: 10px;
   
@@ -73,6 +74,8 @@ hr{
    align-items: center;
    gap: 5px;
 }
+
+
 .currency p:nth-child(1){
        color: var(--Cyan);
        
@@ -115,6 +118,17 @@ hr{
        
       
     }
+
     
+}
+@media screen and (min-width:900px) {
+
+    .Equilibrium:hover{
+        color: var(--Cyan);
+    }
+    .footer-text:hover{
+        color: var(--Cyan);
+    }
+   
 }
 
