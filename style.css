@@ -96,9 +96,7 @@ hr{
 
 
 .currency p:nth-child(1){
-       color: var(--Cyan);
-       
-   
+       color: var(--Cyan);  
 }
 .currency p:nth-child(2){
        color: var(--Soft-blue);
@@ -126,15 +124,12 @@ hr{
 .footer img{
     width: 40px;
     border: 1px solid;
- 
     border-radius: 50%;
   
 } 
 @media screen and (max-width:350px) {
     .body-con{
-        max-width: 250px;
-       
-      
+        max-width: 250px;  
     }
 
     
