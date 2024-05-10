@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Outfit", sans-serif;
+}
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-mainbg: hsl(217, 54%, 11%);
+    --Very-dark-blue-card : hsl(216, 50%, 16%);
+    --Very-dark-blue-line : hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Font-size : 18px;
+}
+
+.wrapper{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    /* height: 500px; */
+    color: var(--White);
+    background-color: var(--Very-dark-blue-mainbg) ;
+    
+}
+.body-con{
+    max-width: 320px;
+    margin: auto;
+    background-color: var(--Very-dark-blue-card);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px;
+}
+hr{
+    background-color: var(--Very-dark-blue-line);
+}
+.landing-img{
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 10px;
+  
+  
+}
+.Equilibrium{
+    font-weight: 600;
+    font-size: calc(var(--Font-size)*1.1);
+   
+
+}
+.collection{
+    
+    padding-block: 15px;
+    color: var(--Soft-blue);
+    line-height: 25px;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 16px;
+}
+.currency{
+    display: flex;
+    border-bottom: 1px solid var(--Very-dark-blue-line);
+    justify-content: space-between;
+    font-size:15px;
+     font-weight: 300;
+    padding-bottom: 10px;
+}
+.currency p{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.currency p:nth-child(1){
+       color: var(--Cyan);
+       
+   
+}
+.currency p:nth-child(2){
+       color: var(--Soft-blue);
+       
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    gap: 10px;
+}
+.footer-text{
+    color: var(--White);
+    /* margin-left: 5px; */
+    /* padding-top:5px ; */
+  
+}
+.footer-text span{
+    color: var(--Soft-blue);
+}
+
+
+.footer img{
+    width: 40px;
+    border: 1px solid;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+  
+} 
+@media screen and (max-width:350px) {
+    .body-con{
+        max-width: 250px;
+       
+      
+    }
+    
+}
+
